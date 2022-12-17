@@ -46,7 +46,7 @@ public class Main {
         System.out.println(employees);
         System.out.println("---------------------------------------------------------------");
         System.out.println("list after sorting:(Comperator) ");
-        Collections.sort(employees, finalComperator);
+        employees.sort(finalComperator);
         System.out.println(employees);
         System.out.println("---------------------------------------------------------------");
 
